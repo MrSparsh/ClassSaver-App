@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.comp.timetableapp.content_day_time_table">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:id="@+id/appBarLayout">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+
+    <ListView
+        android:id="@+id/day_time_table_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="515dp"
+        android:layout_below="@+id/appBarLayout"
+        android:layout_alignParentBottom="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="51dp"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="51dp"
+        android:layout_marginEnd="37dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini" />
+        />
+
+</RelativeLayout>

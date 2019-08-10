@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/inputTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Input"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/subjectNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Subject Name"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/subjectNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Enter Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="From"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/from_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="from_time"
+        android:tag="1"
+        android:text="00:00" />
+
+
+
+    <TextView
+        android:id="@+id/toTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="To"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/to_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="to_time"
+        android:tag="2"
+        android:text="00:00" />
+
+    <TextView
+        android:id="@+id/venueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Venue"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/venueEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submitInputDetailsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="submitInputDetails"
+        android:text="Submit" />
+
+
+</LinearLayout>
