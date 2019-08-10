@@ -240,7 +240,7 @@ public class MainActivity extends AppCompatActivity
             final AlertDialog.Builder alertDialog =new AlertDialog.Builder(this);
             alertDialog.setIcon(R.drawable.time_table_icon);
             alertDialog.setTitle("About");
-            alertDialog.setMessage("Designed by: Piyush Gupta\n" + "Developed by: Mayank Rana and Sparsh Mittal\n" + "Version: 1.0\n" + "For any queries/suggestions, mail us at:" + "guptapiyush963@gmail.com");
+            alertDialog.setMessage("Designed by: Sparsh Mittal\n" + "Developed by: Sparsh Mittal\n" + "Version: 1.0\n" + "For any queries/suggestions, mail us at:" + "mr.sparsh13@gmail.com");
             alertDialog.setCancelable(true);
 
 
