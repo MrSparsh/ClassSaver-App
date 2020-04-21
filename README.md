@@ -1,5 +1,5 @@
-# Time-Table-App
-An app that stores time table as well as manage attendance
+# ClassSaver App
+An app that stores time table, manage attendance and notifies students before class time.
 
 Features:
 1) Sends notification 15 minutes before class.
